@@ -1,0 +1,132 @@
+Circuit: * C:\Users\capu2\Documents\Capu\6610 Circuitos II\ProyectoCE2\Spice\ClaseB\Clase_B_con_proteccion.asc
+
+Warning: Multiple definitions of model "2sc2412k" Type: BJT
+Warning: Multiple definitions of model "2sa1037ak" Type: BJT
+Warning: Multiple definitions of model "bc817-16" Type: BJT
+Warning: Multiple definitions of model "bc848b" Type: BJT
+Warning: Multiple definitions of model "bc807-16" Type: BJT
+Warning: Multiple definitions of model "bcx17" Type: BJT
+Warning: Multiple definitions of model "bc858b" Type: BJT
+Warning: Multiple definitions of model "2sd1898" Type: BJT
+Warning: Multiple definitions of model "d45h11" Type: BJT
+Warning: Multiple definitions of model "bc856b" Type: BJT
+Warning: Multiple definitions of model "bc556b" Type: BJT
+Warning: Multiple definitions of model "bc846b" Type: BJT
+Warning: Multiple definitions of model "bc546b" Type: BJT
+Warning: Multiple definitions of model "bc327-40" Type: BJT
+Warning: Multiple definitions of model "bc327-25" Type: BJT
+Warning: Multiple definitions of model "bc807-40" Type: BJT
+Warning: Multiple definitions of model "bc807-25" Type: BJT
+Warning: Multiple definitions of model "bc857c" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc857a" Type: BJT
+Warning: Multiple definitions of model "bc557c" Type: BJT
+Warning: Multiple definitions of model "bc557b" Type: BJT
+Warning: Multiple definitions of model "bc337-40" Type: BJT
+Warning: Multiple definitions of model "bc337-25" Type: BJT
+Warning: Multiple definitions of model "bc817-40" Type: BJT
+Warning: Multiple definitions of model "bc817-25" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+Warning: Multiple definitions of model "bc847a" Type: BJT
+Warning: Multiple definitions of model "bc547c" Type: BJT
+Warning: Multiple definitions of model "bc547b" Type: BJT
+Warning: Multiple definitions of model "2n3019" Type: BJT
+Warning: Multiple definitions of model "bcw68g" Type: BJT
+Warning: Multiple definitions of model "bcw68f" Type: BJT
+Warning: Multiple definitions of model "bcw60d" Type: BJT
+Warning: Multiple definitions of model "bcw60c" Type: BJT
+Warning: Multiple definitions of model "bcw60b" Type: BJT
+Warning: Multiple definitions of model "bcw60a" Type: BJT
+Warning: Multiple definitions of model "2n3055" Type: BJT
+Warning: Multiple definitions of model "2n5771" Type: BJT
+Warning: Multiple definitions of model "2n5769" Type: BJT
+Warning: Multiple definitions of model "2n2369" Type: BJT
+Warning: Multiple definitions of model "2n5401" Type: BJT
+Warning: Multiple definitions of model "2n5550" Type: BJT
+Warning: Multiple definitions of model "2n4403" Type: BJT
+Warning: Multiple definitions of model "2n4401" Type: BJT
+Warning: Multiple definitions of model "2n2905a" Type: BJT
+Warning: Multiple definitions of model "2n2219a" Type: BJT
+Warning: Multiple definitions of model "2n5087" Type: BJT
+Warning: Multiple definitions of model "2n5210" Type: BJT
+Warning: Multiple definitions of model "2n5089" Type: BJT
+Warning: Multiple definitions of model "2n3391a" Type: BJT
+Warning: Multiple definitions of model "2n4126" Type: BJT
+Warning: Multiple definitions of model "2n4124" Type: BJT
+Warning: Multiple definitions of model "ztx1048a" Type: BJT
+Warning: Multiple definitions of model "ztx849" Type: BJT
+Warning: Multiple definitions of model "fzt849" Type: BJT
+Warning: Multiple definitions of model "2n3906" Type: BJT
+Warning: Multiple definitions of model "2n3904" Type: BJT
+Warning: Multiple definitions of model "2n2907" Type: BJT
+Warning: Multiple definitions of model "2n2222" Type: BJT
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+vernier = 0.5
+Gmin = 0.0193428
+vernier = 0.666667
+Gmin = 0.00496619
+vernier = 0.888888
+vernier = 1
+Gmin = 0.000653801
+Gmin = 7.02013e-005
+vernier = 0.5
+Gmin = 1.17778e-005
+vernier = 0.25
+vernier = 0.333333
+Gmin = 6.31498e-006
+vernier = 0.444444
+vernier = 0.592592
+Gmin = 2.16924e-006
+vernier = 0.790123
+Gmin = 4.23249e-007
+vernier = 1
+Gmin = 4.5446e-008
+Gmin = 4.87973e-009
+Gmin = 5.23957e-010
+Gmin = 5.62595e-011
+Gmin = 6.04081e-012
+Gmin = 6.48627e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+N-Period=1
+Fourier components of V(vo)
+DC component:-0.0292048
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	1.000e+03	2.288e+01	1.000e+00	    0.50°	    0.00°
+    2   	2.000e+03	1.022e-02	4.469e-04	   80.74°	   80.24°
+    3   	3.000e+03	7.145e-03	3.123e-04	   77.85°	   77.35°
+    4   	4.000e+03	2.932e-03	1.281e-04	  -30.26°	  -30.76°
+    5   	5.000e+03	2.427e-02	1.061e-03	  -95.25°	  -95.74°
+    6   	6.000e+03	6.391e-03	2.793e-04	 -155.24°	 -155.74°
+    7   	7.000e+03	8.134e-03	3.556e-04	  120.17°	  119.68°
+    8   	8.000e+03	1.459e-03	6.377e-05	   65.86°	   65.36°
+    9   	9.000e+03	1.321e-02	5.774e-04	  -13.12°	  -13.61°
+Total Harmonic Distortion: 0.140751%(0.148066%)
+
+
+
+Date: Wed Oct 09 11:02:41 2019
+Total elapsed time: 1.577 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 26900
+traniter = 25729
+tranpoints = 9289
+accept = 6468
+rejected = 2821
+matrix size = 61
+fillins = 70
+solver = Normal
+Matrix Compiler1: 8.82 KB object code size  5.3/4.5/[1.7]
+Matrix Compiler2: 7.02 KB object code size  3.3/2.8/[1.8]
+

@@ -1,0 +1,41 @@
+Estimados, adjunto un instructivo para la medición de rechazo de ruido de la fuente.
+
+ 
+
+IMPORTANTE:
+
+Hasta el momento figuran inscriptos 20 estudiantes para la fecha 22/2/19 que integran 9 grupos.
+
+Obviamente aún no se han inscripto todos los integrantes de algunos grupos.
+
+Les pedimos por favor que completen la inscripción lo antes posible e incluso si desisten de presentarse por favor desincribirse.
+
+ 
+
+Y también les avisamos que es imprescindible nos envíen con suficiente antelación los informes donde fundamentalmente deben incluir todas las mediciones con sus bancos de medición bien detallados, los resultados de esas mediciones, graficados cuando corresponde o facilite la interpretación, todo lo cual resulta en la caracterización de su prototipo. Luego, y muy importante, la validación, o sea la comparación exhaustiva entre los valores logrados respecto de los especificados.
+
+ 
+
+La impedancia de salida debe medirse a varias frecuencias. Revisen lo que predijeron con las simulaciones para decidir las frecuencias relevantes a las que medirán la impedancia de salida.
+
+No olvidar que el método de medición debe tener en cuenta todas las fuentes de error de manera de acompañar cada valor de impedancia de salida obtenido con su correspondiente intervalo de confianza. Graficar la impedancia de salida en función de la frecuencia.
+
+ 
+
+En el caso de la distorsión armónica deben presentar en una misma gráfica la distorsión armónica en función de la potencia parametrizando por frecuencia.
+
+Potencias: 0,1W 0,3W 1W 3W 10W 30W y máxima potencia antes del recorte.
+
+Frecuencias: 100Hz 1kHz 10KHz
+
+ 
+
+Y para la distorsión por intermodulación:
+
+Potencias: 0,1W 1W y 10W
+
+ 
+
+Saludos
+
+Alberto

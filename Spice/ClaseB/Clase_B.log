@@ -1,0 +1,100 @@
+Circuit: * C:\Users\capu2\Documents\Capu\6610 Circuitos II\ProyectoCE2\Spice\ClaseB\Clase_B.asc
+
+Warning: Multiple definitions of model "2sc2412k" Type: BJT
+Warning: Multiple definitions of model "2sa1037ak" Type: BJT
+Warning: Multiple definitions of model "bc817-16" Type: BJT
+Warning: Multiple definitions of model "bc848b" Type: BJT
+Warning: Multiple definitions of model "bc807-16" Type: BJT
+Warning: Multiple definitions of model "bcx17" Type: BJT
+Warning: Multiple definitions of model "bc858b" Type: BJT
+Warning: Multiple definitions of model "2sd1898" Type: BJT
+Warning: Multiple definitions of model "d45h11" Type: BJT
+Warning: Multiple definitions of model "bc856b" Type: BJT
+Warning: Multiple definitions of model "bc556b" Type: BJT
+Warning: Multiple definitions of model "bc846b" Type: BJT
+Warning: Multiple definitions of model "bc546b" Type: BJT
+Warning: Multiple definitions of model "bc327-40" Type: BJT
+Warning: Multiple definitions of model "bc327-25" Type: BJT
+Warning: Multiple definitions of model "bc807-40" Type: BJT
+Warning: Multiple definitions of model "bc807-25" Type: BJT
+Warning: Multiple definitions of model "bc857c" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc857a" Type: BJT
+Warning: Multiple definitions of model "bc557c" Type: BJT
+Warning: Multiple definitions of model "bc557b" Type: BJT
+Warning: Multiple definitions of model "bc337-40" Type: BJT
+Warning: Multiple definitions of model "bc337-25" Type: BJT
+Warning: Multiple definitions of model "bc817-40" Type: BJT
+Warning: Multiple definitions of model "bc817-25" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+Warning: Multiple definitions of model "bc847a" Type: BJT
+Warning: Multiple definitions of model "bc547c" Type: BJT
+Warning: Multiple definitions of model "bc547b" Type: BJT
+Warning: Multiple definitions of model "2n3019" Type: BJT
+Warning: Multiple definitions of model "bcw68g" Type: BJT
+Warning: Multiple definitions of model "bcw68f" Type: BJT
+Warning: Multiple definitions of model "bcw60d" Type: BJT
+Warning: Multiple definitions of model "bcw60c" Type: BJT
+Warning: Multiple definitions of model "bcw60b" Type: BJT
+Warning: Multiple definitions of model "bcw60a" Type: BJT
+Warning: Multiple definitions of model "2n3055" Type: BJT
+Warning: Multiple definitions of model "2n5771" Type: BJT
+Warning: Multiple definitions of model "2n5769" Type: BJT
+Warning: Multiple definitions of model "2n2369" Type: BJT
+Warning: Multiple definitions of model "2n5401" Type: BJT
+Warning: Multiple definitions of model "2n5550" Type: BJT
+Warning: Multiple definitions of model "2n4403" Type: BJT
+Warning: Multiple definitions of model "2n4401" Type: BJT
+Warning: Multiple definitions of model "2n2905a" Type: BJT
+Warning: Multiple definitions of model "2n2219a" Type: BJT
+Warning: Multiple definitions of model "2n5087" Type: BJT
+Warning: Multiple definitions of model "2n5210" Type: BJT
+Warning: Multiple definitions of model "2n5089" Type: BJT
+Warning: Multiple definitions of model "2n3391a" Type: BJT
+Warning: Multiple definitions of model "2n4126" Type: BJT
+Warning: Multiple definitions of model "2n4124" Type: BJT
+Warning: Multiple definitions of model "ztx1048a" Type: BJT
+Warning: Multiple definitions of model "ztx849" Type: BJT
+Warning: Multiple definitions of model "fzt849" Type: BJT
+Warning: Multiple definitions of model "2n3906" Type: BJT
+Warning: Multiple definitions of model "2n3904" Type: BJT
+Warning: Multiple definitions of model "2n2907" Type: BJT
+Warning: Multiple definitions of model "2n2222" Type: BJT
+Direct Newton iteration for .op point succeeded.
+N-Period=1
+Fourier components of V(vo)
+DC component:-0.0214868
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	1.000e+03	2.746e+01	1.000e+00	    0.46°	    0.00°
+    2   	2.000e+03	5.785e-03	2.107e-04	 -131.37°	 -131.83°
+    3   	3.000e+03	2.677e-02	9.750e-04	  160.91°	  160.45°
+    4   	4.000e+03	1.225e-02	4.462e-04	   71.67°	   71.21°
+    5   	5.000e+03	1.910e-02	6.956e-04	  -21.63°	  -22.09°
+    6   	6.000e+03	1.688e-02	6.146e-04	 -103.94°	 -104.40°
+    7   	7.000e+03	8.547e-03	3.113e-04	   51.35°	   50.89°
+    8   	8.000e+03	1.922e-02	6.999e-04	   78.39°	   77.93°
+    9   	9.000e+03	1.079e-02	3.930e-04	 -149.05°	 -149.51°
+Total Harmonic Distortion: 0.167238%(0.250763%)
+
+
+
+Date: Tue Oct 15 15:02:23 2019
+Total elapsed time: 1.911 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 54248
+traniter = 54239
+tranpoints = 20675
+accept = 14939
+rejected = 5736
+matrix size = 49
+fillins = 44
+solver = Normal
+Matrix Compiler1: 6.61 KB object code size  3.7/2.2/[1.0]
+Matrix Compiler2: 5.37 KB object code size  1.2/1.7/[1.0]
+
