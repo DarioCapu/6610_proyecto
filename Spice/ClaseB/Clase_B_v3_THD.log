@@ -1,0 +1,228 @@
+Circuit: * C:\Users\capu2\Documents\Capu\6610 Circuitos II\6610_proyecto\Spice\ClaseB\Clase_B_v3_THD.asc
+
+Warning: Multiple definitions of model "2sc2412k" Type: BJT
+Warning: Multiple definitions of model "2sa1037ak" Type: BJT
+Warning: Multiple definitions of model "bc817-16" Type: BJT
+Warning: Multiple definitions of model "bc848b" Type: BJT
+Warning: Multiple definitions of model "bc807-16" Type: BJT
+Warning: Multiple definitions of model "bcx17" Type: BJT
+Warning: Multiple definitions of model "bc858b" Type: BJT
+Warning: Multiple definitions of model "2sd1898" Type: BJT
+Warning: Multiple definitions of model "d45h11" Type: BJT
+Warning: Multiple definitions of model "bc856b" Type: BJT
+Warning: Multiple definitions of model "bc556b" Type: BJT
+Warning: Multiple definitions of model "bc846b" Type: BJT
+Warning: Multiple definitions of model "bc546b" Type: BJT
+Warning: Multiple definitions of model "bc327-40" Type: BJT
+Warning: Multiple definitions of model "bc327-25" Type: BJT
+Warning: Multiple definitions of model "bc807-40" Type: BJT
+Warning: Multiple definitions of model "bc807-25" Type: BJT
+Warning: Multiple definitions of model "bc857c" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc857a" Type: BJT
+Warning: Multiple definitions of model "bc557c" Type: BJT
+Warning: Multiple definitions of model "bc557b" Type: BJT
+Warning: Multiple definitions of model "bc337-40" Type: BJT
+Warning: Multiple definitions of model "bc337-25" Type: BJT
+Warning: Multiple definitions of model "bc817-40" Type: BJT
+Warning: Multiple definitions of model "bc817-25" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+Warning: Multiple definitions of model "bc847a" Type: BJT
+Warning: Multiple definitions of model "bc547c" Type: BJT
+Warning: Multiple definitions of model "bc547b" Type: BJT
+Warning: Multiple definitions of model "2n3019" Type: BJT
+Warning: Multiple definitions of model "bcw68g" Type: BJT
+Warning: Multiple definitions of model "bcw68f" Type: BJT
+Warning: Multiple definitions of model "bcw60d" Type: BJT
+Warning: Multiple definitions of model "bcw60c" Type: BJT
+Warning: Multiple definitions of model "bcw60b" Type: BJT
+Warning: Multiple definitions of model "bcw60a" Type: BJT
+Warning: Multiple definitions of model "2n3055" Type: BJT
+Warning: Multiple definitions of model "2n5771" Type: BJT
+Warning: Multiple definitions of model "2n5769" Type: BJT
+Warning: Multiple definitions of model "2n2369" Type: BJT
+Warning: Multiple definitions of model "2n5401" Type: BJT
+Warning: Multiple definitions of model "2n5550" Type: BJT
+Warning: Multiple definitions of model "2n4403" Type: BJT
+Warning: Multiple definitions of model "2n4401" Type: BJT
+Warning: Multiple definitions of model "2n2905a" Type: BJT
+Warning: Multiple definitions of model "2n2219a" Type: BJT
+Warning: Multiple definitions of model "2n5087" Type: BJT
+Warning: Multiple definitions of model "2n5210" Type: BJT
+Warning: Multiple definitions of model "2n5089" Type: BJT
+Warning: Multiple definitions of model "2n3391a" Type: BJT
+Warning: Multiple definitions of model "2n4126" Type: BJT
+Warning: Multiple definitions of model "2n4124" Type: BJT
+Warning: Multiple definitions of model "ztx1048a" Type: BJT
+Warning: Multiple definitions of model "ztx849" Type: BJT
+Warning: Multiple definitions of model "fzt849" Type: BJT
+Warning: Multiple definitions of model "2n3906" Type: BJT
+Warning: Multiple definitions of model "2n3904" Type: BJT
+Warning: Multiple definitions of model "2n2907" Type: BJT
+Warning: Multiple definitions of model "2n2222" Type: BJT
+Direct Newton iteration for .op point skipped.
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step f=100
+N-Period=1
+Fourier components of V(vo)
+DC component:-0.00233964
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	1.000e+02	8.877e+00	1.000e+00	    5.01°	    0.00°
+    2   	2.000e+02	4.118e-04	4.640e-05	  -82.47°	  -87.48°
+    3   	3.000e+02	2.662e-03	2.999e-04	   29.67°	   24.66°
+    4   	4.000e+02	3.350e-04	3.774e-05	   60.51°	   55.50°
+    5   	5.000e+02	6.509e-03	7.332e-04	    6.71°	    1.70°
+    6   	6.000e+02	1.030e-04	1.160e-05	  156.88°	  151.86°
+    7   	7.000e+02	1.478e-03	1.666e-04	  -21.56°	  -26.57°
+    8   	8.000e+02	4.446e-04	5.009e-05	   66.90°	   61.89°
+    9   	9.000e+02	2.225e-03	2.507e-04	    1.40°	   -3.61°
+Total Harmonic Distortion: 0.085110%(0.095055%)
+
+
+.step f=200
+N-Period=1
+Fourier components of V(vo)
+DC component:-0.00502986
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	2.000e+02	8.894e+00	1.000e+00	    2.51°	    0.00°
+    2   	4.000e+02	7.689e-04	8.646e-05	   74.45°	   71.94°
+    3   	6.000e+02	2.527e-03	2.841e-04	   21.47°	   18.96°
+    4   	8.000e+02	4.634e-04	5.211e-05	  -91.10°	  -93.61°
+    5   	1.000e+03	5.427e-03	6.103e-04	   -3.06°	   -5.57°
+    6   	1.200e+03	2.646e-04	2.976e-05	  -40.15°	  -42.66°
+    7   	1.400e+03	1.995e-03	2.243e-04	  -33.84°	  -36.35°
+    8   	1.600e+03	1.014e-03	1.141e-04	 -122.93°	 -125.44°
+    9   	1.800e+03	1.976e-03	2.222e-04	  -18.05°	  -20.56°
+Total Harmonic Distortion: 0.075955%(0.082626%)
+
+.step f=1000
+N-Period=1
+Fourier components of V(vo)
+DC component:-0.0385766
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	1.000e+03	8.899e+00	1.000e+00	    0.49°	    0.00°
+    2   	2.000e+03	2.084e-03	2.341e-04	 -110.25°	 -110.74°
+    3   	3.000e+03	3.092e-03	3.475e-04	    9.95°	    9.47°
+    4   	4.000e+03	1.320e-03	1.484e-04	  101.21°	  100.72°
+    5   	5.000e+03	5.275e-03	5.927e-04	  -15.51°	  -16.00°
+    6   	6.000e+03	6.298e-04	7.077e-05	   30.96°	   30.47°
+    7   	7.000e+03	2.058e-03	2.312e-04	  -56.95°	  -57.44°
+    8   	8.000e+03	1.786e-03	2.006e-04	   59.43°	   58.95°
+    9   	9.000e+03	1.347e-03	1.513e-04	  -37.88°	  -38.37°
+Total Harmonic Distortion: 0.081885%(0.087732%)
+
+.step f=2000
+N-Period=1
+Fourier components of V(vo)
+DC component:-0.0315676
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	2.000e+03	8.900e+00	1.000e+00	    0.21°	    0.00°
+    2   	4.000e+03	4.912e-04	5.519e-05	  -39.79°	  -40.00°
+    3   	6.000e+03	4.652e-03	5.226e-04	   -0.72°	   -0.93°
+    4   	8.000e+03	9.621e-05	1.081e-05	   90.21°	   90.00°
+    5   	1.000e+04	6.036e-03	6.782e-04	  -20.76°	  -20.97°
+    6   	1.200e+04	9.437e-04	1.060e-04	  -94.48°	  -94.69°
+    7   	1.400e+04	2.387e-03	2.682e-04	  -66.67°	  -66.88°
+    8   	1.600e+04	7.793e-04	8.756e-05	  162.31°	  162.10°
+    9   	1.800e+04	4.843e-04	5.441e-05	   29.58°	   29.37°
+Total Harmonic Distortion: 0.091110%(0.093289%)
+
+.step f=10000
+N-Period=1
+Fourier components of V(vo)
+DC component:-0.0146478
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	1.000e+04	8.899e+00	1.000e+00	   -0.23°	    0.00°
+    2   	2.000e+04	2.790e-04	3.135e-05	 -121.47°	 -121.24°
+    3   	3.000e+04	3.856e-03	4.333e-04	    8.31°	    8.54°
+    4   	4.000e+04	1.535e-04	1.725e-05	  103.10°	  103.33°
+    5   	5.000e+04	4.740e-03	5.327e-04	  -14.43°	  -14.20°
+    6   	6.000e+04	2.517e-04	2.829e-05	 -116.44°	 -116.21°
+    7   	7.000e+04	2.640e-03	2.966e-04	  -35.71°	  -35.48°
+    8   	8.000e+04	8.874e-05	9.971e-06	  105.05°	  105.28°
+    9   	9.000e+04	1.043e-03	1.172e-04	  -46.00°	  -45.77°
+Total Harmonic Distortion: 0.075853%(0.085258%)
+
+.step f=20000
+N-Period=1
+Fourier components of V(vo)
+DC component:-0.0111186
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	2.000e+04	8.899e+00	1.000e+00	   -0.54°	    0.00°
+    2   	4.000e+04	1.332e-03	1.497e-04	 -107.27°	 -106.73°
+    3   	6.000e+04	2.552e-03	2.868e-04	   19.57°	   20.11°
+    4   	8.000e+04	1.013e-03	1.139e-04	   97.32°	   97.86°
+    5   	1.000e+05	4.583e-03	5.150e-04	   -8.57°	   -8.03°
+    6   	1.200e+05	8.050e-04	9.046e-05	  -99.20°	  -98.66°
+    7   	1.400e+05	2.017e-03	2.266e-04	  -37.20°	  -36.66°
+    8   	1.600e+05	7.836e-04	8.805e-05	   77.90°	   78.44°
+    9   	1.800e+05	1.777e-03	1.997e-04	  -31.10°	  -30.56°
+Total Harmonic Distortion: 0.070000%(0.084901%)
+
+.step f=40000
+N-Period=1
+Fourier components of V(vo)
+DC component:-0.010826
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	4.000e+04	8.901e+00	1.000e+00	   -1.13°	    0.00°
+    2   	8.000e+04	9.024e-04	1.014e-04	 -153.47°	 -152.34°
+    3   	1.200e+05	5.296e-03	5.950e-04	    0.66°	    1.79°
+    4   	1.600e+05	1.148e-03	1.290e-04	 -122.61°	 -121.48°
+    5   	2.000e+05	6.097e-03	6.849e-04	  -17.38°	  -16.25°
+    6   	2.400e+05	5.838e-04	6.559e-05	  173.44°	  174.57°
+    7   	2.800e+05	5.971e-04	6.708e-05	  -37.03°	  -35.90°
+    8   	3.200e+05	9.604e-04	1.079e-04	  -94.52°	  -93.39°
+    9   	3.600e+05	1.327e-03	1.491e-04	   79.99°	   81.12°
+Total Harmonic Distortion: 0.094480%(0.105926%)
+
+
+Date: Fri Nov 29 18:55:27 2019
+Total elapsed time: 3.952 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 7290
+traniter = 6795
+tranpoints = 2758
+accept = 2159
+rejected = 599
+matrix size = 53
+fillins = 54
+solver = Normal
+Matrix Compiler1: 7.00 KB object code size  4.2/2.4/[1.3]
+Matrix Compiler2: 5.87 KB object code size  2.4/2.6/[1.6]
+
