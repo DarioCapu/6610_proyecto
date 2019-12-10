@@ -1,0 +1,12 @@
+# Writing all output to: C:\Users\capu2\Documents\Capu\6610 Circuitos II\6610_proyecto\Proteus\Clase B\ClaseB_v4.log
+set pad_wire_necking on
+bus diagonal
+fanout 5
+route 50
+clean 2
+route 50 16
+clean 2
+filter 5
+recorner diagonal
+status_file
+
